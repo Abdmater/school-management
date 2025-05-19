@@ -1,0 +1,164 @@
+@import "tailwindcss";
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+@theme {
+  --color-sky: #c3ebfa;
+  --color-skyLigth: #edf9fd;
+  --color-purple: #cfceff;
+  --color-purpleLigth: #f1f0ff;
+  --color-yellow: #fae27c;
+  --color-yellowLigth: #fefce8;
+}
+
+.react-calendar {
+  width: 100% !important;
+  border: none !important;
+  font-family: "Inter", sans-serif !important;
+}
+
+.react-calendar__navgation__label__labelText {
+  font-weight: 600 !important;
+}
+.react-calendar__tile--active {
+  background-color: var(--color-purple) !important;
+  color: black !important;
+}
+
+.react-calendar,
+.react-calendar *,
+.react-calendar :before,
+.react-calendar :after {
+  text-decoration: none !important;
+}
+
+.rbc-btn-group:first-child {
+  display: none !important;
+}
+
+/* .rbc-timeslot-group {
+  min-height: 80px !important;
+} */
+
+.rbc-toolbar-label {
+  text-align: end !important;
+  padding: 0 20px !important;
+
+}
+
+.rbc-day-slot   {
+  font-size: 14px !important;
+}
+
+.rbc-btn-group:last-child {
+  font-size: 13px;
+}
+.rbc-btn-group:last-child {
+  border: none !important;
+  background-color: #f1f0ff !important;
+  margin-left: 2px !important;
+}
+
+.rbc-toolbar button.rbc-active {
+  background-color: #dbdafe !important;
+  box-shadow: none !important;
+}
+
+.rbc-time-view {
+  border-color: #eee !important;
+}
+.rbc-time-content {
+  border-color: none !important;
+}
+
+.rbc-time-header {
+  display: none !important;
+}
+
+.rbc-time-gutter.rbc-time-column {
+  font-size: 12px !important;
+}
+
+.rbc-time-gutter.rbc-time-column .rbc-timeslot-group {
+  padding: 25px 12px !important;
+}
+.rbc-timeslot-group {
+  background-color: #f7fdff !important;
+  min-height: 70px !important;
+}
+
+.rbc-event{
+  border: none !important;
+  color : black !important;
+  margin: 10px 5px !important;
+  padding: 5px !important;
+  width: 99% !important;
+}
+
+.rbc-event:nth-child(1) {
+  background-color: var(--color-sky) !important;
+}
+.rbc-event:nth-child(2) {
+  background-color: var(--color-yellow) !important;
+}
+.rbc-event:nth-child(3) { 
+  background-color: var(--color-purple) !important;
+}
+.rbc-event:nth-child(4) {
+  background-color: var(--color-sky) !important;
+}
+.rbc-event:nth-child(5) {
+  background-color: var(--color-yellow) !important;
+}
+.rbc-event:nth-child(6) { 
+  background-color: var(--color-purple) !important;
+}
+.rbc-event:nth-child(7) {
+  background-color: var(--color-sky) !important;
+}
+.rbc-event:nth-child(8) {
+  background-color: var(--color-yellow) !important;
+}
+
+.rbc-event-label {
+  color : gray !important;
+  margin-bottom: 5px;
+  font-size: 10px !important;
+}
+
+.rbc-event-content{
+  font-size: 15px !important;
+  /* white-space: nowrap !important; */
+
+}
+
+button {
+  cursor: pointer;
+}
+/* 
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+} */
