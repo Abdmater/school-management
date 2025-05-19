@@ -7,7 +7,7 @@ import TeacherForm from "./forms/TeacherForm";
 const FormModal = ({
   table,
   type,
-  data,
+  // data,
   id,
 }: {
   table:
@@ -24,7 +24,7 @@ const FormModal = ({
     | "event"
     | "announcement";
   type: "create" | "update" | "delete";
-  data?: any;
+  // data?: any;
   id?: number;
 }) => {
   const size = type === "create" ? "w-8 h-8" : "w-7 h-7";
